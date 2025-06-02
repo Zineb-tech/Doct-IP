@@ -7,7 +7,7 @@ import Colors from '../../constants/Colors';
 export default function HomePatientScreen() {
   return (
     <SafeAreaView style={styles.safeArea}>
-      <View style={styles.container}>
+      <View style={styles.conainer}>
         <Header />
         <DoctorsList/>
       </View>
